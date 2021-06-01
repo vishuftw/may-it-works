@@ -21,8 +21,8 @@ if (!stat) {
   if (wallet == undefined) {
     Bot.sendMessage("_❌ wallet Not set_")
   } else {
-    if (balance.value() < 800) {
-      Bot.sendMessage("_❌ You have to own at least 800 Lovecoin!_")
+    if (balance.value() < 80000) {
+      Bot.sendMessage("_❌ You have to own at least 80000 Lovecoin!_")
     } else {
       Bot.sendMessage("*📤 Enter Amount of Lovecoin*")
       Bot.runCommand("With1")
