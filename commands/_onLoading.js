@@ -46,7 +46,7 @@ Bot.sendMessage(
 Api.sendMessage({
   chat_id: "@atronftwsutopayment",
   text:
-    "✅ New successful Withdraw\n\n⭐ Amount - "+amo+" coin name\n🦁 User - @"+user.username+"\n💠 Wallet - "+add+"\n☎️ User Referrals = "+refList.length+"\n ☘Transaction ID - "+txnlink+" \n\n🏖 Bot Link - @"+bot.name+"\n⏩ Please Check Your Wallet",
+    "✅ New successful Withdraw\n\n⭐ Amount - "+amo+" ATRON\n🦁 User - @"+user.username+"\n💠 Wallet - "+add+"\n☎️ User Referrals = "+refList.length+"\n ☘Transaction ID - "+txnlink+" \n\n🏖 Bot Link - @"+bot.name+"\n⏩ Please Check Your Wallet",
   disable_web_page_preview: true,reply_markup: { inline_keyboard: [[{ text: "💠 Payment ID", url: "https://tronscan.org/#/transaction/"+content+"" },{ text: "🍀 Bot Link", url: "https://t.me/"+bot.name+"" }],
 ]}
 })
@@ -56,7 +56,7 @@ Bot.sendMessageToChatWithId(
     bot.name +
     "\n\n💳 Amount: " +
     amo +
-    " enter coin name \n👜 Wallet : " +
+    " enter ATRON \n👜 Wallet : " +
     add +
     "\n🕹️ ☘TxID : https://tronscan.org/#/transaction/" +
     tx +
