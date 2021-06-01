@@ -16,8 +16,8 @@ if (referbonus == undefined){
 let refUser = Libs.ReferralLib.currentUser.attractedByUser()
 if (refUser){
   var balanceref = Libs.ResourcesLib.anotherUserRes("balance", refUser.telegramid)
-  balanceref.add(2000) // enter refer amount here and change below line as per your coin and amount
-  Bot.sendMessageToChatWithId(refUser.chatId, "💲 You Earned +2000 set coin \n\n*👨‍💼Your Referral :* "+"["+user.username+"]" + "(" + "tg://user?id=" + user.telegramid + ")")
+  balanceref.add(20000) // enter refer amount here and change below line as per your coin and amount
+  Bot.sendMessageToChatWithId(refUser.chatId, "💲 You Earned +20000 ATRON \n\n*👨‍💼Your Referral :* "+"["+user.username+"]" + "(" + "tg://user?id=" + user.telegramid + ")")
 User.setProperty("referbonus", user.telegramid, "integer")}
 }
 
@@ -28,7 +28,7 @@ var msgid = User.getProperty("msgid")
 Api.deleteMessage({
 message_id : msgid
 })
-Bot.sendKeyboard("💵 Balance 💵\n🤴Referral🤴,🎁 Bonus 🎁,↗️Withdraw↗️,\n⚙️ Set wallet ⚙️,📊 Statistics 📊", "*▶️ Refer and Earn TRX*")
+Bot.sendKeyboard("💵 Balance 💵\n🤴Referral🤴,🎁 Bonus 🎁,↗️Withdraw↗️,\n⚙️ Set wallet ⚙️,📊 Statistics 📊", "*▶️ Refer and Earn ATRON*")
 }
 if (userstat=="left"){
 Bot.runCommand("/start");
