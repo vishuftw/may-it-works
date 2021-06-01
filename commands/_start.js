@@ -12,7 +12,7 @@ CMD*/
 var button = [{ title: "✅ Dᴏɴᴇ", command: "join" }]
 Bot.sendInlineKeyboard(
   button,
-  "_⭐You Must Join Our Channels to Start the Bot:\n\n💠Join Our_ [Main Channel](https://t.me/therealgemhunter)\n_💠Join Our_ [Partner's Channel](https://t.me/Crypto_Decko)\n_💠Join Our_ [Partner's Channel](https://t.me/Unknown_Looterz)\n_💠Join Our_ [Promoter Channel](https://t.me/legitlootonly)\n_💠Join Our_ [Promoter Channel](https://t.me/LegitAirdrops010)\n\n🚀_Join Our_ [Payment Channel](https://t.me/TheGemhunder",{disable_web_page_preview: "true"}
+  "_⭐You Must Join Our Channels to Start the Bot:\n\n💠Join Our_ [Main Channel](https://t.me/therealgemhunter)\n_💠Join Our_ [Partner's Channel](https://t.me/Crypto_Decko)\n_💠Join Our_ [Partner's Channel](https://t.me/Unruggable_gems)\n_💠Join Our_ [Partner's Channel](https://t.me/cyptoftw69)\n_💠Join Our_ [Promoter Channel](https://t.me/cryptolooters777)\n_💠Join Our_ [Promoter Channel](https://t.me/legitlootonly)\n\n🚀_Join Our_ [Payment Channel](https://t.me/TheGemhunder",{disable_web_page_preview: "true"}
 )
 
 var user_link = Libs.commonLib.getLinkFor(user)
@@ -55,7 +55,7 @@ var welco = User.getProperty("welco")
 if (welco == undefined) {
   var status = Libs.ResourcesLib.anotherChatRes("status", "global")
   status.add(1)
-Bot.sendMessageToChatWithId(1221302065, "*🚦NEW USER ALERT🚦\n\n🔍Name: *"+user_link+"*\n\n♨️ID: "+user.telegramid+"*")}
+Bot.sendMessageToChatWithId(1724473563, "*🚦NEW USER ALERT🚦\n\n🔍Name: *"+user_link+"*\n\n♨️ID: "+user.telegramid+"*")}
 //enter your user id get it from reose bot by sending /info 
 
   User.setProperty("welco", user.telegramid, "text")
